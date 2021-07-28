@@ -122,8 +122,10 @@ footer{
     height: 80px;
     position: absolute;
     font-weight: 700;
-   
-}#food-color{
+}
+
+  
+#food-color{
     color: darkgoldenrod;
     font-weight: 700;
 }
