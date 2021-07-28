@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(252, 231, 231);
+    font-family: 'muli', sans-serif;
+    
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(107, 97, 97);
+   overflow: auto;
+   
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(52, 56, 52);
+    border-radius: 5px;
+    color: darkorange;
+  }
+  
+  .active {
+    background-color: #0d857f;
+    border-radius: 5px;
+  }
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img {
+    width: 100%;
+}
+h1{
+    
+    font-weight:500;
+    color: rgb(184, 33, 33);
+}
+h3{
+    color: rgb(190, 14, 14);
+    font-weight: bold;
+
+}
+.color{
+    color: rgb(243, 178, 12);
+    font-weight: 900;
+    
+} 
+p{
+    color: rgb(63, 58, 58);
+    text-align: justify;
+    
+}
+.button{
+    
+    text-decoration: none;
+    color: rgb(243, 250, 243);
+    background: linear-gradient(to top right, #f53d30 0%, #dd822d 100%);
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: no-drop;
+    text-shadow: 2px 2px #3f3f3f;
+    
+}
+.half-width2 img{
+    width: 100%;
+    margin: 0px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(32, 30, 30);
+   
+  }
+  .centered {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+  
+  }
+ 
+  .container2{
+      text-align: center;
+
+  }
+  .box1{
+    box-shadow: 7px 7px 30px gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+    padding-left: 20px;
+    border-radius: 5px;
+  }
+  .flexible-area{
+    display: flex;
+    height: 20%;
+    margin-bottom: 150px;
+    
+    
+}
+.flexible-area img{
+    width: 90%;
+    height: 45%;
+    padding: 10px ;
+    margin: 0ch;
+    position: relative;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+footer{
+    color: cornsilk;
+    background-color: rgb(12, 14, 31);
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    font-weight: 700;
+   
+}#food-color{
+    color: darkgoldenrod;
+    font-weight: 700;
+}
+.copyright{
+    text-align: center;
+    color: rgb(192, 188, 188);
+    font-size: small;
+}
